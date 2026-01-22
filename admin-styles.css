@@ -1,0 +1,100 @@
+/**
+ * GTM4WP Elementor Extension - Admin Styles
+ * Stili per migliorare l'aspetto del metabox e della pagina impostazioni
+ */
+
+/* Metabox Styling */
+.gtm4wp-elem-config {
+    padding: 10px 0;
+}
+
+.gtm4wp-elem-config p {
+    margin-bottom: 15px;
+}
+
+.gtm4wp-elem-config label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.gtm4wp-elem-config select,
+.gtm4wp-elem-config input[type="text"] {
+    margin-top: 5px;
+}
+
+.gtm4wp-elem-config .description {
+    display: block;
+    margin-top: 5px;
+    font-style: italic;
+    color: #646970;
+}
+
+/* Settings Page Styling */
+.gtm4wp-elem-settings-header {
+    background: #fff;
+    border-left: 4px solid #2271b1;
+    padding: 15px;
+    margin: 20px 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.gtm4wp-elem-settings-header h2 {
+    margin-top: 0;
+}
+
+.gtm4wp-elem-instructions {
+    background: #f0f6fc;
+    border-left: 4px solid #72aee6;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.gtm4wp-elem-instructions h3 {
+    margin-top: 0;
+    color: #2c3338;
+}
+
+.gtm4wp-elem-instructions ol,
+.gtm4wp-elem-instructions ul {
+    margin-left: 20px;
+}
+
+.gtm4wp-elem-instructions li {
+    margin-bottom: 8px;
+}
+
+.gtm4wp-elem-warning {
+    background: #fcf9e8;
+    border-left: 4px solid #dba617;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.gtm4wp-elem-success {
+    background: #edfaef;
+    border-left: 4px solid #00a32a;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* Table Form Styling */
+.form-table th {
+    font-weight: 600;
+}
+
+/* Checkbox Lists */
+.form-table label {
+    margin-bottom: 8px;
+}
+
+.form-table input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Responsive */
+@media screen and (max-width: 782px) {
+    .gtm4wp-elem-config select,
+    .gtm4wp-elem-config input[type="text"] {
+        width: 100% !important;
+    }
+}
