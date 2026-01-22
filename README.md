@@ -51,7 +51,7 @@ This plugin lets you associate any page with a WooCommerce product and automatic
 
 ### Installation
 
-1. Download the [latest release](https://github.com/felicegattuso/custom-page-product-tracking-ga4/releases)
+1. Download the [latest release](https://github.com/feliceit/custom-page-product-tracking-ga4/releases)
 2. Upload to WordPress via Plugins → Add New → Upload Plugin
 3. Activate plugin
 
